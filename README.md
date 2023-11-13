@@ -15,7 +15,7 @@ This Google Chrome extension, named "TuneTranslate", is designed to instantly tr
 ## Installation
 
 To install this extension, visit the Chrome Web Store and search for "TuneTranslate - Lyrics Translator". Click on 'Add to Chrome' to install it. After installation, the extension icon will appear in your browser's toolbar.
-
+![](/tunetranslatess.png)
 ## Usage
 
 To use the TuneTranslate extension, follow these simple steps:
