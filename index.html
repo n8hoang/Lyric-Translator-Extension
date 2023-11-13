@@ -10,13 +10,16 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center my-4">Lyric Translator</h1>
-        <div class="form-group">
+        <h1 class="text-center my-2">Lyric Translator</h1>
+        <div id="logoContainer" class="d-flex justify-content-center align-items-center">
+            <img id="logo" src="./icon.png">
+        </div>
+        <div class="form-group my-2">
             <textarea class="form-control" id="oglyrics" rows="4" placeholder="Enter lyrics for translation"></textarea>
         </div>
-        <div class="form-group">
+        <div class="form-group my-2">
             <select class="form-control" id="language">
-                <option selected value="">I am listening to a song in:</option>
+                <option selected value="">I want to translate to:</option>
                   <option value="af">Afrikaans</option>
                   <option value="sq">Albanian</option>
                   <option value="am">Amharic</option>
@@ -123,7 +126,10 @@
                   <option value="zu">Zulu</option>
             </select>
         </div>
-        <button type="button" class="btn btn-primary" id="translate">Convert Lyrics</button>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-primary" id="translate">Convert Lyrics</button>
+        </div>
         <div id="translatedLyrics" class="mt-4"></div>
+        <div id="errorDiv"></div>
     </div>
 </html>
