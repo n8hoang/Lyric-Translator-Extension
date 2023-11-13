@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lyrics Translator Extension</title>
-    <script src='./exchange.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="popup.css">
+    <script src="./translate.js"></script>
 </head>
 <body>
-    <h1> Lyric Translator</h1>
-    <input type="string" id="oglyrics" placeholder="Enter lyrics for translation">
-    <select id="language">
-        <option selected value="">I want to translate to:</option>
+    <div class="container">
+        <h1 class="text-center my-4">Lyric Translator</h1>
+        <div class="form-group">
+            <textarea class="form-control" id="oglyrics" rows="4" placeholder="Enter lyrics for translation"></textarea>
+        </div>
+        <div class="form-group">
+            <select class="form-control" id="language">
+                <option selected value="">I am listening to a song in:</option>
                   <option value="af">Afrikaans</option>
                   <option value="sq">Albanian</option>
                   <option value="am">Amharic</option>
@@ -115,8 +121,9 @@
                   <option value="yi">Yiddish</option>
                   <option value="yo">Yoruba</option>
                   <option value="zu">Zulu</option>
-    </select>
-    <button id="translate">Convert Lyrics</button>
-    <div id="translateLyrics"></div>
-</body>
+            </select>
+        </div>
+        <button type="button" class="btn btn-primary" id="translate">Convert Lyrics</button>
+        <div id="translatedLyrics" class="mt-4"></div>
+    </div>
 </html>
