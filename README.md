@@ -1,5 +1,7 @@
 # TuneTranslate - Lyrics Translator Extension [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+### Video Demo: https://youtu.be/J4bbTkhyt7w
+
 ## Description
 
 This Google Chrome extension, named "TuneTranslate", is designed to instantly translate lyrics into various languages. Leveraging the capabilities of the Google Translate API, it offers a seamless and intuitive way for users to understand songs in their preferred languages. The extension is especially useful for music enthusiasts who enjoy international music. The journey in developing this extension involved intricate handling of the Google Translate API and designing a user-friendly interface that integrates smoothly with the browser experience.
