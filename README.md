@@ -33,4 +33,4 @@ This extension is released under the [MIT License](https://opensource.org/licens
 ## Demonstration
 
 Since this is a browser extension, a demonstration video is available to guide users through its features and functionalities. The video showcases how to use the extension effectively, demonstrating real-time translation of song lyrics.
-[DEMO]()
+[DEMO](https://youtu.be/J4bbTkhyt7w)
