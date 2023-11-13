@@ -1,5 +1,5 @@
 {
-    "name": "Lyric-Translator",
+    "name": "TuneTranslate - Lyric Translator",
     "version" : "1.0",
     "manifest_version": 3,
     "description": "Extension to translate song lyrics quickly",
